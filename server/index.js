@@ -1,6 +1,6 @@
 const { Server } = require("socket.io");
 
-const io=new Server('',{
+const io=new Server('https://video-chat-application-er9p.onrender.com',{
     cors:true,
 })
 
